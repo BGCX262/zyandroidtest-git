@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#DCDCDC"
+    >
+<LinearLayout 
+    android:padding="5dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+     android:id="@+id/rtchange"   
+     android:layout_width="35dip"
+    android:layout_height="fill_parent"  
+    android:src="@drawable/icon_change"
+    android:background="@drawable/btn_off_change"
+        
+        />
+     <LinearLayout 
+    android:layout_marginLeft="3dip"     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+        >       
+   <EditText
+	android:id="@+id/start"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="我现在的位置"
+   />
+   <EditText
+	android:id="@+id/end"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="输入终点..."
+/>
+ </LinearLayout>
+ </LinearLayout>
+    <LinearLayout 
+        
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dip">
+     <ImageButton
+    android:layout_marginTop="2dip"       
+    android:layout_marginLeft="5dip"     
+    android:layout_width="35dip"
+    android:layout_height="45dip"
+    android:background="@drawable/btn_poi_detail_normal"   
+         />
+        <Button
+        android:layout_marginTop="2dip"       
+    	android:id="@+id/transit"
+    	android:background="@drawable/tran"
+    	android:layout_width="70dip"
+    	android:layout_height="45dip"
+    	android:layout_marginLeft="33dip"
+    />
+    <Button
+         android:layout_marginTop="2dip"
+    	android:id="@+id/drive"
+    	android:background="@drawable/drive"
+    	android:layout_width="70dip"
+    	android:layout_height="45dip"
+    
+    />
+
+    <Button       
+        android:layout_marginTop="2dip"      
+    	android:id="@+id/walk"
+    	android:background="@drawable/walk"
+    	android:layout_width="70dip"
+    	android:layout_height="45dip"
+    />
+</LinearLayout>
+
+ <com.baidu.mapapi.MapView 
+     
+      android:id="@+id/bmapView"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent" 
+	  android:clickable="true"     
+	/>
+ </LinearLayout>
+

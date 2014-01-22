@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nyist.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="LogoActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+  
+                   <activity android:name="com.zzypop.Button.MapTest"/>
+           <activity android:name="com.zzypop.Button.ObtainPosition"/>
+        <activity android:name="com.zzypop.Button.MyLocation"/>
+        <activity android:name="com.zzypop.Button.OperaLocation"/>
+        <activity android:name="com.zzypop.Button.LocalSearch"/>
+        <activity android:name="com.zzypop.Button.NearSearch"/>
+        <activity android:name="com.zzypop.Button.PoiSearch"/>
+        <activity android:name="com.zzypop.Button.RouteSearch"/>
+        <activity 
+        	android:name="com.nyist.start.StartInfoActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity 
+        	android:name="com.nyist.start.StartFaceActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity 
+        	android:name="com.nyist.start.FilmBriActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+       <activity 
+        	android:name="com.nyist.start.FilmCirActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+       <activity 
+        	android:name="com.nyist.start.StartFceDetailActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>    
+        <activity 
+        	android:name="com.nyist.start.FilmCirDetailActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> 
+        <activity 
+        	android:name="com.nyist.start.FilmBriDetailActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> 	
+
+        <activity
+            android:name="com.nyist.liuyan.LiuyanActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".CompanyInfo"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".TabRadioDemoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.sale.Sale"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".MenuActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="Zhaopin"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="HomeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.sale.Sale"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".TelephoneActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="MoreActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.viewpaper.RecruitMembers"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.viewpaper.birthdayPresent"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.viewpaper.IntegralGift"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="ViewPaperTestActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="ViewPaperTestActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmInfoActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmHotActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmTeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmWillActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmHotDetailActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmWillDetailActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.nyist.test.FilmTeDetailActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        
+          <activity 
+        	android:name="com.nyist.privilege.PrivilegeInfoActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+         <activity 
+        	android:name="com.nyist.privilege.PrivilegeGroupActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity 
+        	android:name="com.nyist.privilege.PrivilegeStuActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+       <activity 
+        	android:name="com.nyist.privilege.PrivilegeCardActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+       <activity 
+        	android:name="com.nyist.privilege.PrivilegeGroupDetailActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>    
+        <activity 
+        	android:name="com.nyist.privilege.PrivilegeCardDetailActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> 
+        <activity 
+        	android:name="com.nyist.privilege.PrivilegeStuDetailActivity"
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> 	
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 访问internet权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+     <supports-screens android:largeScreens="true"
+    android:normalScreens="true" android:smallScreens="true"
+    android:resizeable="true" android:anyDensity="true"/>
+</manifest>

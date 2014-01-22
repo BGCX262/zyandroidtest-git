@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/main_background" >
+    <ListView
+        android:id="@+id/tel_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:scrollbars="vertical"
+        android:divider="@drawable/line"
+        android:layout_marginLeft="5px"
+        android:layout_marginRight="5px"
+        android:layout_marginTop="7dip"
+        android:cacheColorHint="#00000000"/>
+
+</LinearLayout>

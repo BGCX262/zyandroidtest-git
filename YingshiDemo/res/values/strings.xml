@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TabRadioDemoActivity!</string>
+    <string name="app_name">南都影视</string>
+    <string name="main_rb_home">主页</string>
+    <string name="main_rb_search">菜单</string>
+    <string name="main_rb_camera">新华影城</string>
+    <string name="main_rb_selfinfo">呼叫</string>
+    <string name="main_rb_more">更多</string>
+    <string name="aboutours">关于我们</string>
+    <string name="company">企业简介</string>
+    <string name="contact_us">联系我们</string>
+    <string name="waiter">服务员招聘</string>
+    <string name="cashier">收银员招聘</string>
+    <string name="programmer">程序员招聘</string>
+       <string name="liuyan">请输入您的留言：</string>
+     <string name="liuyansave">提交留言</string>
+    <string name="address">地址：河南南阳卧龙区工业路与新华路交汇处新华城市广场6楼</string>
+    <string name="telephone">电话：0377-63253518</string>
+    <string name="oscar">奥斯卡南阳新华影城</string>
+    <string name="email">\t\t邮箱：1150580768@qq.com\n\t\t电话：15290336267</string>
+    <string name="ours_info">\t\t某某影视是由王杰，张紫阳，王亚光、刘永乐、王亚超、李莹莹倾力制作，旨在为电影院的动态提供一个简单的移动客户端，方便影迷的使用.</string>
+    <string name="car">乘车：市内9、15、1、6路公交可达</string>
+    <string name="company_info">  引领时尚先锋  奉献卓越精彩</string>
+    <string name="recruitmembertitle1">五折金熊卡</string>
+    <string name="recruitmembertitle2">唯我独尊5折卡</string>
+    <string name="recruitmembertext1">储值200\n(收取15员工本费)</string>
+    <string name="recruitmembertext2">25元办理影城唯我独尊5折卡，双影本人享受半价购票</string>
+    <string name="intergralgifttitle1">200积分礼品</string>
+    <string name="intergralgifttext1">储物架、毛巾\n爆米花一桶</string>
+    <string name="intergralgifttitle2">500积分礼品</string>
+    <string name="intergralgifttext2">储物凳、欧式衣架\n一兑一电影票2张</string>
+    <string name="birthdaypresenttitle">会员生日礼</string>
+    <string name="birthdaypresent">\t\t会员生日前后3天凭会员卡和身份证领取精美礼物</string>
+    <string name="privi_stu">学生专惠</string>
+    <string name="privi_gro">群体专惠</string>
+    <string name="privi_card">办卡专惠</string>
+    	<string name="film_bri">影城简介</string>
+    		<string name="start_titile_show">信息简介</string>
+    <string name="privi_titile_show">优惠信息</string>
+    <string name="recruitmember">招募会员</string>
+    <string name="film_hot">正在热映</string>
+    <string name="film_will">即将上映</string>
+    <string name="film_cir">影城环境</string>
+    <string name="film_te">特价电影</string><string name="liuyantext">留言内容</string>
+    <string name="titile_firstshow">影片信息</string>
+<string name="start_face">明星见面会</string>
+</resources>

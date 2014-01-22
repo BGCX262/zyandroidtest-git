@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+android:background="@android:color/white"
+    android:orientation="vertical" >
+
+   <Button
+                android:id="@+id/telephone"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/icon_top"
+                android:drawableLeft="@drawable/user_blue"
+                android:drawableRight="@drawable/btn_right"
+                android:paddingRight="15dp"
+                android:text="@string/telephone"
+                android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>

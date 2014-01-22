@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.nyist.test.CustomTabHost
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/main_background"
+    >
+    <LinearLayout   
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+       	android:layout_gravity="top"
+    	android:layout_alignParentTop="true">
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@color/treeblue" >
+        <Button          
+            android:layout_marginTop="5dip"
+            android:id="@+id/return_inf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"            
+            android:background="@drawable/return_bt"
+            android:layout_marginLeft="10dip"          
+            />
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="影 讯" 
+        android:textSize="25sp"  />       
+    </RelativeLayout>
+        
+    	<TabWidget    	    
+    		android:id="@android:id/tabs"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_weight="0.0"
+    		android:visibility="gone"/>
+    	<RadioGroup
+    		android:id="@+id/main_tab"
+    		android:background="@color/whitesmoke"
+    		android:orientation="horizontal"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center_horizontal"
+    		android:layout_gravity="top"
+    		>
+    		<RadioButton 
+    			android:layout_marginTop="2.0dip"
+    			android:text="@string/film_hot"
+    			android:layout_height="35dp"
+    			android:id="@+id/radio_button0"
+    			style="@style/main_tab_top"
+    		    android:textColor="@color/Black"
+    		    android:textSize="15sp"/>
+    		<RadioButton 
+    			android:layout_marginTop="2.0dip"
+    			android:text="@string/film_will"
+    			android:layout_height="35dp"
+    			android:id="@+id/radio_button1"
+    			style="@style/main_tab_top"
+    			android:textColor="@color/Black"
+    		    android:textSize="15sp"/>
+    		 <RadioButton 
+    			android:layout_marginTop="2.0dip"
+    			android:text="@string/film_te"
+    			android:layout_height="35dp"
+    			android:id="@+id/radio_button2"
+    			style="@style/main_tab_top"
+    			android:textColor="@color/Black"
+    		    android:textSize="15sp"/>
+    	</RadioGroup>
+    	  	<FrameLayout 
+    		android:id="@android:id/tabcontent"
+    		android:layout_width="fill_parent"
+    		android:layout_height="fill_parent"
+    		android:layout_weight="1.0" 		
+    		/>	  
+    </LinearLayout>
+
+</com.nyist.test.CustomTabHost>

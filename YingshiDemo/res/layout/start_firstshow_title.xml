@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:background="@color/treeblue">
+  
+    <ImageView 
+        android:id="@+id/iv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_first_show"
+        android:layout_marginTop="7dip"
+        android:layout_marginLeft="7dip"
+        android:contentDescription="@string/app_name"/>
+    <TextView 
+        android:id="@+id/tvhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_titile_show"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="8dip"
+        android:layout_marginLeft="7dip"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/iv_home"
+        />
+
+
+</RelativeLayout>

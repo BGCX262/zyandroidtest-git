@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.nyist.activity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical" >
+  <include layout="@layout/start_firstshow_title" />
+
+ <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="250dip"
+        android:background="#ffffff" >
+
+        <com.nyist.tool.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.nyist.tool.ViewFlow>
+   <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="300dip"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:padding="3dip" >
+
+       <com.nyist.tool.CircleFlowIndicator 
+                android:id="@+id/film_hot_flow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:padding="2dip"
+                app:activeColor="#ff0000"
+                app:activeType="fill"
+                app:circleSeparation="20dip"
+                app:inactiveColor="#ffffff"
+                app:inactiveType="fill"
+                app:radius="4dip" />
+        </LinearLayout>
+    </FrameLayout>
+
+ <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"     
+      >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/film_name"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/icon_top"              
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:paddingLeft="17dip"
+                android:paddingTop="15dip"
+                android:text="@string/film_hot"
+                android:textColor="#ff333333"
+                android:textSize="20.0sp"
+                android:paddingRight="15dip"
+                 />
+         <TextView
+                android:id="@+id/film_brief"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:paddingLeft="17dip"
+                android:paddingTop="10dip"
+                android:includeFontPadding="false"
+                android:background="@drawable/icon_top"
+                android:paddingRight="15dip"              
+                android:text="简介"
+                android:textColor="#ff333333"
+                android:textSize="15.0sp"
+                />
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

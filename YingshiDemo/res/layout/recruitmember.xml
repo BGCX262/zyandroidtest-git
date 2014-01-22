@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:layout_margin="5dp"
+  android:background="@drawable/btn_bg"
+   
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/huiyuan1"
+        android:layout_width="130dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/huiyuan1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+      />
+      <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_centerVertical="true"
+    android:paddingLeft="10dp"
+     android:paddingRight="20dp"
+    android:layout_toRightOf="@id/huiyuan1"
+    android:orientation="vertical">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/recruitmembertitle1"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/recruitmembertext1"
+          android:layout_gravity="center_vertical"
+        />
+</LinearLayout>
+<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:src="@drawable/btn_right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+      />
+</RelativeLayout>
+ 
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+  android:background="@drawable/btn_bg"
+   
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/huiyuan2"
+        android:layout_width="130dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/huiyuan2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+      />
+      <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:paddingRight="20dp"
+    android:layout_centerVertical="true"
+    android:paddingLeft="10dp"
+    android:layout_toRightOf="@id/huiyuan2"
+    android:orientation="vertical">
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/recruitmembertitle2"
+        />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="@string/recruitmembertext2"
+          android:layout_gravity="center_vertical"
+        />
+</LinearLayout>
+<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:src="@drawable/btn_right"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+      />
+</RelativeLayout>
+    
+</LinearLayout>

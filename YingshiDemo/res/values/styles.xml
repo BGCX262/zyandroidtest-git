@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="search_rb_bottom">
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="search_dot">
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+    
+    <style name="login_btn">
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+   <style name="ContentOverlay" parent="android:style/Theme.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">false</item>
+	</style>
+	
+   <style name="main_tab_top">
+    
+	<item name="android:textSize">@dimen/bottom_tab_font_size</item>
+    <item name="android:textColor">#ffffffff</item>
+    <item name="android:ellipsize">marquee</item>
+    <item name="android:gravity">center_horizontal</item>
+    <item name="android:background">@drawable/film_btn_bg</item>
+    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:button">@null</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+    <item name="android:layout_weight">1.0</item>
+   </style>
+   
+</resources>

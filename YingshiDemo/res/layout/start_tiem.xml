@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:background="@drawable/film_btn_item"
+    android:descendantFocusability="blocksDescendants"
+    android:marqueeRepeatLimit="marquee_forever" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_weight="0.00"
+        android:layout_marginBottom="5dip"
+        android:src="@drawable/ironman1" />
+
+    <LinearLayout
+        android:id="@+id/newlist_item_info_layout"
+        android:layout_width="200dp"
+        android:layout_height="80dip"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="15dip"
+        android:layout_toLeftOf="@+id/linerlayout_imagebutton"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="标题"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/brief"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="2"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:text="内容"           
+            android:textColor="#000"
+            android:textSize="12dip" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/news_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="70dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="1dip"
+        android:paddingRight="10dip"
+        android:layout_toLeftOf="@id/newlist_item_info_layout"
+        android:background="@drawable/news_item_list_detail" />
+
+</LinearLayout>

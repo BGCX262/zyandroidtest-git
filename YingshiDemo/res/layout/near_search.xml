@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DCDCDC" 
+    android:id="@+id/myR">
+    
+    
+    
+     <LinearLayout 
+    android:id="@+id/line1"     
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="40dip">
+    <FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"   
+    android:background="@drawable/bg_panel_sel"
+        >
+     <TextView    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dip" 
+    android:paddingTop="5dip"
+    android:textColor="#000000"   
+    android:text="在我的位置附近找:"
+    android:textSize="20sp"
+         />    
+    </FrameLayout>
+
+     <ListView
+            android:id="@+id/mylist"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/line"
+            android:scrollbars="vertical" />
+
+</LinearLayout>
+<RelativeLayout
+     android:id="@+id/line2"     
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"  
+    android:layout_alignParentBottom="true"
+    android:background="#1E90FF"
+    >
+     
+    <EditText
+        android:layout_marginTop="5dip"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/myedit"
+        android:layout_width="fill_parent"
+        android:layout_marginRight="60dip"
+        android:layout_height="45dip"
+        android:hint="请输入要查询的地址..."
+        android:layout_marginBottom="5dip"
+         />
+
+<Button
+    android:id="@+id/poisearch"
+    android:layout_width="58dip"
+    android:layout_height="37dip"
+    android:layout_alignBaseline="@+id/myedit"
+    android:layout_alignBottom="@+id/myedit"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/btn_poi_search" />   
+</RelativeLayout>
+
+</RelativeLayout>

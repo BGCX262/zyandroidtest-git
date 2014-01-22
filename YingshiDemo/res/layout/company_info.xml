@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.nyist.activity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="#ffffff" >
+
+        <com.nyist.viewflowtest.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </com.nyist.viewflowtest.ViewFlow>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <com.nyist.viewflowtest.CircleFlowIndicator
+                android:id="@+id/viewflowindic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:padding="2dip"
+                app:activeColor="#ff0000"
+                app:activeType="fill"
+                app:circleSeparation="20dip"
+                app:inactiveColor="#8E8E8E"
+                app:inactiveType="fill"
+                app:radius="4dip" />
+        </LinearLayout>
+    </FrameLayout>
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <Button
+            android:id="@+id/aboutours"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/icon_top"
+            android:drawableLeft="@drawable/oscar_company"
+            android:drawableRight="@drawable/btn_right"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:text="@string/oscar"
+            android:textColor="@android:color/darker_gray" />
+        
+
+        <Button
+            android:id="@+id/companyinfolocation"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/icon_bottom"
+            android:drawableLeft="@drawable/location"
+            android:drawableRight="@drawable/btn_right"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:text="@string/address"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/bus"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_bottom"
+            android:drawableLeft="@drawable/car"
+            android:drawableRight="@drawable/btn_right"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:text="@string/car"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+</LinearLayout>
